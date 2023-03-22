@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.course-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.time-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.course-heading {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.tag-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
